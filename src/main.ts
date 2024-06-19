@@ -32,6 +32,7 @@ import { Configs } from "./configuration";
 
   await app.listen(port);
 
+
   console.log(`Server running on ${port}`);
 
   const appUrl: string = isDevelopmentMode
